@@ -1,0 +1,2 @@
+Para crear un componente sin standalone porque sino no lo puedo meter en el app.module:
+ng generate component nombre-componente --standalone=false

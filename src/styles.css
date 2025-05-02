@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('assets/fondo.png');
+    background-size: cover;
+    font-family: 'Segoe UI', sans-serif;
+    min-height: 100vh;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 7rem;
+    margin: 0;
+    font-weight: normal;
+}
+
+header p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 0.1rem;
+    padding-left: 1.5rem;
+}
+
+main {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
