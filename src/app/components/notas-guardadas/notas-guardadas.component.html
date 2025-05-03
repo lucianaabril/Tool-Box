@@ -1,0 +1,6 @@
+<div class="notas-guardadas">
+    <div class="nota" *ngFor="let nota of notas; let i = index">
+        <p> {{ nota }} </p>
+        <button class="eliminar" (click)="eliminarNota(i)">X</button>
+    </div>
+</div>

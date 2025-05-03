@@ -12,6 +12,9 @@ import { CalendarioPageComponent } from './pages/calendario-page/calendario-page
 import { TimerComponent } from './components/timer/timer.component';
 import { CalendarioComponent } from './components/calendario/calendario.component';
 import { NotasComponent } from './components/notas/notas.component';
+import { NuevaNotaComponent } from './components/nueva-nota/nueva-nota.component';
+import { NotasGuardadasComponent } from './components/notas-guardadas/notas-guardadas.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,10 +29,13 @@ import { NotasComponent } from './components/notas/notas.component';
     TimerComponent,
     CalendarioComponent,
     NotasComponent,
+    NuevaNotaComponent,
+    NotasGuardadasComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

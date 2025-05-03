@@ -1,1 +1,5 @@
-<p>notas works!</p>
+<div class="notas-container">
+    <nueva-nota (nueva)="agregarNota($event)"></nueva-nota> <!--recibe el evento emitido por nueva-nota-->
+    <notas-guardadas [notas]="notas" (eliminar)="eliminarNota($event)"></notas-guardadas>
+</div>
+

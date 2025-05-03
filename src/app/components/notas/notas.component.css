@@ -1,0 +1,12 @@
+.notas-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2vw;
+    gap: 1vw;
+    align-items: flex-start;
+  }
+  
+  nueva-nota, notas-guardadas {
+    flex: 1;
+    max-width: 100%;
+  }
